@@ -1,0 +1,9 @@
+import model --modelname HAHM_MG5model_v3/HAHM_variableMW_v3_UFO
+
+define p = g u c d s b u~ c~ d~ s~ b~
+define j = g u c d s b u~ c~ d~ s~ b~
+define f = u c d s u~ c~ d~ s~ b b~ e+ e- m+ m- tt+ tt- ve vm vt ve~ vm~ vt~
+
+generate     p p  > z > m+ m- zp
+
+output darkPhoton_Zmumu_m5e-4
